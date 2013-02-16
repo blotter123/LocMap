@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC5AE85416CF3045000CE763 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5AE85316CF3045000CE763 /* UIKit.framework */; };
+		AC5AE85616CF3045000CE763 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5AE85516CF3045000CE763 /* Foundation.framework */; };
+		AC5AE85816CF3045000CE763 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5AE85716CF3045000CE763 /* CoreGraphics.framework */; };
+		AC5AE85E16CF3045000CE763 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC5AE85C16CF3045000CE763 /* InfoPlist.strings */; };
+		AC5AE86016CF3045000CE763 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5AE85F16CF3045000CE763 /* main.m */; };
+		AC5AE86416CF3045000CE763 /* BTLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5AE86316CF3045000CE763 /* BTLAppDelegate.m */; };
+		AC5AE86616CF3045000CE763 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5AE86516CF3045000CE763 /* Default.png */; };
+		AC5AE86816CF3045000CE763 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5AE86716CF3045000CE763 /* Default@2x.png */; };
+		AC5AE86A16CF3045000CE763 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5AE86916CF3045000CE763 /* Default-568h@2x.png */; };
+		AC5AE86D16CF3045000CE763 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5AE86B16CF3045000CE763 /* MainStoryboard.storyboard */; };
+		AC5AE87016CF3045000CE763 /* BTLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5AE86F16CF3045000CE763 /* BTLViewController.m */; };
+		AC5AE87816CF3045000CE763 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5AE87716CF3045000CE763 /* SenTestingKit.framework */; };
+		AC5AE87916CF3045000CE763 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5AE85316CF3045000CE763 /* UIKit.framework */; };
+		AC5AE87A16CF3045000CE763 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5AE85516CF3045000CE763 /* Foundation.framework */; };
+		AC5AE88216CF3045000CE763 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC5AE88016CF3045000CE763 /* InfoPlist.strings */; };
+		AC5AE88516CF3045000CE763 /* BTLLocMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5AE88416CF3045000CE763 /* BTLLocMapTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC5AE87B16CF3045000CE763 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC5AE84616CF3045000CE763 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC5AE84E16CF3045000CE763;
+			remoteInfo = BTLLocMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC5AE84F16CF3045000CE763 /* BTLLocMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTLLocMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5AE85316CF3045000CE763 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC5AE85516CF3045000CE763 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC5AE85716CF3045000CE763 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC5AE85B16CF3045000CE763 /* BTLLocMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTLLocMap-Info.plist"; sourceTree = "<group>"; };
+		AC5AE85D16CF3045000CE763 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC5AE85F16CF3045000CE763 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC5AE86116CF3045000CE763 /* BTLLocMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTLLocMap-Prefix.pch"; sourceTree = "<group>"; };
+		AC5AE86216CF3045000CE763 /* BTLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTLAppDelegate.h; sourceTree = "<group>"; };
+		AC5AE86316CF3045000CE763 /* BTLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTLAppDelegate.m; sourceTree = "<group>"; };
+		AC5AE86516CF3045000CE763 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AC5AE86716CF3045000CE763 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AC5AE86916CF3045000CE763 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AC5AE86C16CF3045000CE763 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AC5AE86E16CF3045000CE763 /* BTLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTLViewController.h; sourceTree = "<group>"; };
+		AC5AE86F16CF3045000CE763 /* BTLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTLViewController.m; sourceTree = "<group>"; };
+		AC5AE87616CF3045000CE763 /* BTLLocMapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTLLocMapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5AE87716CF3045000CE763 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AC5AE87F16CF3045000CE763 /* BTLLocMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTLLocMapTests-Info.plist"; sourceTree = "<group>"; };
+		AC5AE88116CF3045000CE763 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC5AE88316CF3045000CE763 /* BTLLocMapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTLLocMapTests.h; sourceTree = "<group>"; };
+		AC5AE88416CF3045000CE763 /* BTLLocMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTLLocMapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC5AE84C16CF3045000CE763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5AE85416CF3045000CE763 /* UIKit.framework in Frameworks */,
+				AC5AE85616CF3045000CE763 /* Foundation.framework in Frameworks */,
+				AC5AE85816CF3045000CE763 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5AE87216CF3045000CE763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5AE87816CF3045000CE763 /* SenTestingKit.framework in Frameworks */,
+				AC5AE87916CF3045000CE763 /* UIKit.framework in Frameworks */,
+				AC5AE87A16CF3045000CE763 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC5AE84416CF3045000CE763 = {
+			isa = PBXGroup;
+			children = (
+				AC5AE85916CF3045000CE763 /* BTLLocMap */,
+				AC5AE87D16CF3045000CE763 /* BTLLocMapTests */,
+				AC5AE85216CF3045000CE763 /* Frameworks */,
+				AC5AE85016CF3045000CE763 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC5AE85016CF3045000CE763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC5AE84F16CF3045000CE763 /* BTLLocMap.app */,
+				AC5AE87616CF3045000CE763 /* BTLLocMapTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC5AE85216CF3045000CE763 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC5AE85316CF3045000CE763 /* UIKit.framework */,
+				AC5AE85516CF3045000CE763 /* Foundation.framework */,
+				AC5AE85716CF3045000CE763 /* CoreGraphics.framework */,
+				AC5AE87716CF3045000CE763 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC5AE85916CF3045000CE763 /* BTLLocMap */ = {
+			isa = PBXGroup;
+			children = (
+				AC5AE86216CF3045000CE763 /* BTLAppDelegate.h */,
+				AC5AE86316CF3045000CE763 /* BTLAppDelegate.m */,
+				AC5AE86B16CF3045000CE763 /* MainStoryboard.storyboard */,
+				AC5AE86E16CF3045000CE763 /* BTLViewController.h */,
+				AC5AE86F16CF3045000CE763 /* BTLViewController.m */,
+				AC5AE85A16CF3045000CE763 /* Supporting Files */,
+			);
+			path = BTLLocMap;
+			sourceTree = "<group>";
+		};
+		AC5AE85A16CF3045000CE763 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC5AE85B16CF3045000CE763 /* BTLLocMap-Info.plist */,
+				AC5AE85C16CF3045000CE763 /* InfoPlist.strings */,
+				AC5AE85F16CF3045000CE763 /* main.m */,
+				AC5AE86116CF3045000CE763 /* BTLLocMap-Prefix.pch */,
+				AC5AE86516CF3045000CE763 /* Default.png */,
+				AC5AE86716CF3045000CE763 /* Default@2x.png */,
+				AC5AE86916CF3045000CE763 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC5AE87D16CF3045000CE763 /* BTLLocMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC5AE88316CF3045000CE763 /* BTLLocMapTests.h */,
+				AC5AE88416CF3045000CE763 /* BTLLocMapTests.m */,
+				AC5AE87E16CF3045000CE763 /* Supporting Files */,
+			);
+			path = BTLLocMapTests;
+			sourceTree = "<group>";
+		};
+		AC5AE87E16CF3045000CE763 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC5AE87F16CF3045000CE763 /* BTLLocMapTests-Info.plist */,
+				AC5AE88016CF3045000CE763 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC5AE84E16CF3045000CE763 /* BTLLocMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5AE88816CF3045000CE763 /* Build configuration list for PBXNativeTarget "BTLLocMap" */;
+			buildPhases = (
+				AC5AE84B16CF3045000CE763 /* Sources */,
+				AC5AE84C16CF3045000CE763 /* Frameworks */,
+				AC5AE84D16CF3045000CE763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTLLocMap;
+			productName = BTLLocMap;
+			productReference = AC5AE84F16CF3045000CE763 /* BTLLocMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC5AE87516CF3045000CE763 /* BTLLocMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5AE88B16CF3045000CE763 /* Build configuration list for PBXNativeTarget "BTLLocMapTests" */;
+			buildPhases = (
+				AC5AE87116CF3045000CE763 /* Sources */,
+				AC5AE87216CF3045000CE763 /* Frameworks */,
+				AC5AE87316CF3045000CE763 /* Resources */,
+				AC5AE87416CF3045000CE763 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC5AE87C16CF3045000CE763 /* PBXTargetDependency */,
+			);
+			name = BTLLocMapTests;
+			productName = BTLLocMapTests;
+			productReference = AC5AE87616CF3045000CE763 /* BTLLocMapTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC5AE84616CF3045000CE763 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BTL;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Benedikt Lotter";
+			};
+			buildConfigurationList = AC5AE84916CF3045000CE763 /* Build configuration list for PBXProject "BTLLocMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC5AE84416CF3045000CE763;
+			productRefGroup = AC5AE85016CF3045000CE763 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC5AE84E16CF3045000CE763 /* BTLLocMap */,
+				AC5AE87516CF3045000CE763 /* BTLLocMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC5AE84D16CF3045000CE763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5AE85E16CF3045000CE763 /* InfoPlist.strings in Resources */,
+				AC5AE86616CF3045000CE763 /* Default.png in Resources */,
+				AC5AE86816CF3045000CE763 /* Default@2x.png in Resources */,
+				AC5AE86A16CF3045000CE763 /* Default-568h@2x.png in Resources */,
+				AC5AE86D16CF3045000CE763 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5AE87316CF3045000CE763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5AE88216CF3045000CE763 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC5AE87416CF3045000CE763 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC5AE84B16CF3045000CE763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5AE86016CF3045000CE763 /* main.m in Sources */,
+				AC5AE86416CF3045000CE763 /* BTLAppDelegate.m in Sources */,
+				AC5AE87016CF3045000CE763 /* BTLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5AE87116CF3045000CE763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5AE88516CF3045000CE763 /* BTLLocMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC5AE87C16CF3045000CE763 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC5AE84E16CF3045000CE763 /* BTLLocMap */;
+			targetProxy = AC5AE87B16CF3045000CE763 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC5AE85C16CF3045000CE763 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC5AE85D16CF3045000CE763 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC5AE86B16CF3045000CE763 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC5AE86C16CF3045000CE763 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		AC5AE88016CF3045000CE763 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC5AE88116CF3045000CE763 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC5AE88616CF3045000CE763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC5AE88716CF3045000CE763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC5AE88916CF3045000CE763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTLLocMap/BTLLocMap-Prefix.pch";
+				INFOPLIST_FILE = "BTLLocMap/BTLLocMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC5AE88A16CF3045000CE763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTLLocMap/BTLLocMap-Prefix.pch";
+				INFOPLIST_FILE = "BTLLocMap/BTLLocMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC5AE88C16CF3045000CE763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTLLocMap.app/BTLLocMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTLLocMap/BTLLocMap-Prefix.pch";
+				INFOPLIST_FILE = "BTLLocMapTests/BTLLocMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AC5AE88D16CF3045000CE763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTLLocMap.app/BTLLocMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTLLocMap/BTLLocMap-Prefix.pch";
+				INFOPLIST_FILE = "BTLLocMapTests/BTLLocMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC5AE84916CF3045000CE763 /* Build configuration list for PBXProject "BTLLocMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5AE88616CF3045000CE763 /* Debug */,
+				AC5AE88716CF3045000CE763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5AE88816CF3045000CE763 /* Build configuration list for PBXNativeTarget "BTLLocMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5AE88916CF3045000CE763 /* Debug */,
+				AC5AE88A16CF3045000CE763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC5AE88B16CF3045000CE763 /* Build configuration list for PBXNativeTarget "BTLLocMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC5AE88C16CF3045000CE763 /* Debug */,
+				AC5AE88D16CF3045000CE763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC5AE84616CF3045000CE763 /* Project object */;
+}
